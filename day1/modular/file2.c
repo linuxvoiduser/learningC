@@ -1,7 +1,8 @@
 #include "myfile.h"
 #include <stdio.h>
 
+extern age;
 int main(){
-	printf("my age is %d\n",age);
+	("my age is %d\n",age);
 	return 0;
 }
