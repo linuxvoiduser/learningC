@@ -6,10 +6,14 @@ int main (){
 	scanf("%d",&high);
 	printf("enter the width:\n");
 	scanf("%d",&width);
-	
+
+	for(int k=0;k<width;k++)
+		printf(" _");
+	printf("\n");
+
 	for (int i=0;i<high;i++){
 		printf("|");
-		if(i==0 || i==high-1){
+		if(i==high-1){
 			for(int j=0;j<width;j++)
 				printf("_ ");
 		}else{
